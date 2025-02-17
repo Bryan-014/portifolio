@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Portifolio</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <button  type="button" class="offCan" data-bs-toggle="offcanvas" role="button" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+          <span class="navbar-toggler-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#fff" class="bi bi-list" viewBox="0 0 22 22">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+          </span>
+        </button>
+        <span id="title">Bryan Rosa</span>              
+        <div class="center-title"></div>
+        <div class="offcanvas offcanvas-start" tabindex="-1" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div id="group1">
+              <a href="/portifolio/index.html" class="selected"><img src='./img/header/pers.svg'/><span>Sobre Mim</span></a>
+              <a href="/portifolio/"><img src='./img/header/formac.svg'/><span>Formação</span></a>
+              <a href="/portifolio/"><img src='./img/header/experi.svg'/><span>Experiência</span></a>
+              <a href="/portifolio/"><img src='./img/header/hability.svg'/><span>Habilidades</span></a>
+              <a href="/portifolio/"><img src='./img/header/project.svg'/><span>Projetos</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="groupList">
+      <div id="group2">
+        <a href="/portifolio/" class="selected"><img src='./img/header/pers.svg'/></a>
+        <a href="/portifolio/"><img src='./img/header/formac.svg'/></a>
+        <a href="/portifolio/"><img src='./img/header/experi.svg'/></a>
+        <a href="/portifolio/"><img src='./img/header/hability.svg'/></a>
+        <a href="/portifolio/"><img src='./img/header/project.svg'/></a>
+      </div>
+    </div>         
+    <div class="container-wrapper">
+      <div class="content-wrapper">
+        <div class="head">
+          <div id="breadC">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+              <ol class="breadcrumb"> 
+                <li class="breadcrumb-item active">Sobre Mim</li>
+              </ol>
+            </nav>
+          </div>
+        </div> 
+        <div class="cont">    
+          <div class="d-flex ">
+            <img src="./img/picture.jpg" class="picture-pers"/>            
+            <div class="pers-infos">
+              <h1>Bryan Rosa Da Silveira</h1>
+              <ul>
+                <li>Brasileiro, 21 anos</li>
+                <li>bryangustavo201904@gmail.com</li>
+                <li>(41) 9 8407-5326</li>
+                <li>Caiobá, Matinhos - PR</li>
+              </ul>
+            </div>
+          </div>
+          <h2>Resumo</h2>
+          <div class="resum">
+            <p>
+              Busco ingressar no mercado de trabalho como desenvolvedor de software, atualmente estou cursando Análise e Desenvolvimento de Sistemas no Instituto Federal do Paraná de Paranaguá, sou formado em técnico em informática pelo Senac e já tenho um estágio de 11 meses na Vertow.
+              Busco oportunidades de novos estágios ou algum cargo de desenvolvedor junior, atuo como desenvolvedor Full-Stack, porém qualquer oportunidade para crescer como programador estarei disposto a aprender e colaborar para o crescimento da empresa. Onde mais tenho experiências é com desenvolvimento web, mas também já atuei com desenvolvimento desktop.
+            </p>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </body>
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>
