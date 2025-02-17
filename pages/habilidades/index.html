@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <title>Portifolio</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <button  type="button" class="offCan" data-bs-toggle="offcanvas" role="button" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+          <span class="navbar-toggler-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#fff" class="bi bi-list" viewBox="0 0 22 22">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+          </span>
+        </button>
+        <span id="title">Bryan Rosa</span>              
+        <div class="center-title"></div>
+        <div class="offcanvas offcanvas-start" tabindex="-1" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div id="group1">
+              <a href="/portifolio/"><img src='../../img/header/pers.svg'/><span>Sobre Mim</span></a>
+              <a href="/portifolio/pages/formacao/"><img src='../../img/header/formac.svg'/><span>Formação</span></a>
+              <a href="/portifolio/pages/experiencia/"><img src='../../img/header/experi.svg'/><span>Experiência</span></a>
+              <a href="/portifolio/pages/habilidades/" class="selected"><img src='../../img/header/hability.svg'/><span>Hábilidades</span></a>
+              <a href="/portifolio/pages/projetos/"><img src='../../img/header/project.svg'/><span>Projetos</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="groupList">
+      <div id="group2">
+        <a href="/portifolio/"><img src='../../img/header/pers.svg'/></a>
+        <a href="/portifolio/pages/formacao/"><img src='../../img/header/formac.svg'/></a>
+        <a href="/portifolio/pages/experiencia/"><img src='../../img/header/experi.svg'/></a>
+        <a href="/portifolio/pages/habilidades/" class="selected"><img src='../../img/header/hability.svg'/></a>
+        <a href="/portifolio/pages/projetos/"><img src='../../img/header/project.svg'/></a>
+      </div>
+    </div>         
+    <div class="container-wrapper">
+      <div class="content-wrapper">
+        <div class="head">
+            <div id="breadC">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb"> 
+                        <li class="breadcrumb-item"><a href="/portifolio/" class="crumbLink">Sobre Mim</a></li>
+                        <img src='../../img/header/hability.svg' style="filter: invert(100%);"/>
+                        <li class="breadcrumb-item active" aria-current="page">Hábilidades</li>
+                    </ol>
+                </nav>
+            </div>
+            <a type="button" class="btn-close" href="/portifolio/"></a>
+        </div> 
+        <div class="cont"></div>
+      </div>
+    </div>
+  </body>
+  <script src="../../bootstrap/js/bootstrap.min.js"></script>
+  <script src="../../bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>
